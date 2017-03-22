@@ -8,3 +8,9 @@
 8.	//carrera[@id='p02']/centro
 9.	//subdirector/../nombre
 10.	//alumnos//proyecto/../../nombre
+describo programas
+11.	//alumnos//programa/@codigo
+12.	//programa[@beca]/nombre | //alumnos[@beca]/apellidos | //alumnos[@beca]/nombres
+13.	//asignatura[@titulacion='p04']/nombre
+14.	//asignatura[trimestre=2]/nombre
+15.	//asignatura[not(creditos_teoricos=4)]/nombre
