@@ -3,3 +3,8 @@
 3.	//carrera/datos/nombre
 4.	//carrera/plan
 5.	//alumnos/nombre
+//carreras/@id
+7.	//carrera[@id='p01']
+8.	//carrera[@id='p02']/centro
+9.	//subdirector/../nombre
+10.	//alumnos//proyecto/../../nombre
