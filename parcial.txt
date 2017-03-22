@@ -20,3 +20,6 @@ describo alumnos
 18.	//alumnos[.//asignatura/@codigo='a02']/nombre
 19.	//alumnos//asignatura/../../carrera/@codigo
 20.	//alumnos[sexo='Hombre']/nombres | //alumno[sexo='Hombre']/apellidos
+describo saignaturas
+22.	//asignatura[@id=//alumnos[nombre='Luisa']//asignatura/@codigo]/nombre
+23.	//alumnos[.//asignatura/@codigo=//asignatura[nombre='Ingeniería del Software']/@id]/apellidos
