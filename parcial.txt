@@ -14,3 +14,9 @@ describo programas
 13.	//asignatura[@titulacion='p04']/nombre
 14.	//asignatura[trimestre=2]/nombre
 15.	//asignatura[not(creditos_teoricos=4)]/nombre
+describo alumnos
+6.	//alumnos[last()]//programa/@codigo
+17.	//alumnos[sexo='Mujer']//asignatura/@codigo
+18.	//alumnos[.//asignatura/@codigo='a02']/nombre
+19.	//alumnos//asignatura/../../carrera/@codigo
+20.	//alumnos[sexo='Hombre']/nombres | //alumno[sexo='Hombre']/apellidos
