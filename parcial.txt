@@ -26,4 +26,9 @@ describo saignaturas
 describo autor
 //programa[@id=//alumnos[.//asignatura[@codigo=//asignatura[nombre='Administracion negocios internacionales']/@id]]//programa/@codigo]/nombre
 25.	//alumnos[not (.//programa/@codigo=//programa[subdirector]/@codigo)]/nombre
-26.	//programa[.//asignatura/@codigo=//asignatura[creditos_practicos=0]/@id][.//programa/@codigo=//programa[nombre='I.T. Informática']/@id]/nombr
+26.	//programa[.//asignatura/@codigo=//asignatura[creditos_practicos=0]/@id][.//programa/@codigo=//programa[nombre='I.T. Informática']/@id]/no
+usuario
+26.	//programa[.//asignatura/@codigo=/
+
+ /asignatura[creditos_practicos=0]/@id][.//programa/@codigo=//programa[nombre='I.T. Informática']/@id]/nombr
+daffrevgtrebrtbrbrtbrtbtrbbt
