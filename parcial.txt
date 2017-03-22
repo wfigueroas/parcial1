@@ -1,0 +1,5 @@
+/universidad/datos/nombre
+2.	/universidad/datos/pais
+3.	//carrera/datos/nombre
+4.	//carrera/plan
+5.	//alumnos/nombre
