@@ -23,3 +23,6 @@ describo alumnos
 describo saignaturas
 22.	//asignatura[@id=//alumnos[nombre='Luisa']//asignatura/@codigo]/nombre
 23.	//alumnos[.//asignatura/@codigo=//asignatura[nombre='Ingeniería del Software']/@id]/apellidos
+describo autor
+//programa[@id=//alumnos[.//asignatura[@codigo=//asignatura[nombre='Administracion negocios internacionales']/@id]]//programa/@codigo]/nombre
+25.	//alumnos[not (.//programa/@codigo=//programa[subdirector]/@codigo)]/nombre
